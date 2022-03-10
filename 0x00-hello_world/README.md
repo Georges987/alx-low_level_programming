@@ -1,1 +1,2 @@
-<h2>Hello World - <small>Project</small></h2>
+Repository for low level programming learning code
+C starting project and more

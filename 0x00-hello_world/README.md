@@ -1,3 +1,1 @@
-# alx-low_level_programming
-Repository for low level programming learning code
-C starting project and more
+<h2>Hello World - <small>Project</small></h2>

@@ -7,11 +7,12 @@
  */
 int main(void)
 {
-	int n = 97;
+	int n = 'a';
 
-	for ( ; n <= 122 ; n++)
+	for ( ; n <= 'z' ; n++)
 	{
-		putchar(n);
+		if (n != 'q' && n != 'e')
+			putchar(n);
 	}
 	putchar(10);
 	return (0);

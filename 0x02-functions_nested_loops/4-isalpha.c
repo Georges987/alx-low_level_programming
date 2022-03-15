@@ -3,7 +3,7 @@
 /**
  * _isalpha - check if character is alphabetic or not
  * 
- * alx : integer value
+ * @alx : integer value
  * 
  * Return: 1 if alx is alphabetic and 0 in the other case
  *

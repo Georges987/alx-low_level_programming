@@ -1,17 +1,20 @@
-#include <stdio.h>
-#include "main.h"
+#include "holberton.h"
 
 /**
- * * main - causes an infinite loop
- * * Return: 0
- * */
+ * main - Print text
+ *
+ * Return: 0 for success
+ *
+ */
 
 int main(void)
 {
-	char* str="_putchar\n";
-	while(*str)
+	char *alx = "_putchar";
+
+	while (*alx)
 	{
-		_putchar(str);
+		_putchar(*alx);
+		alx++;
 	}
 	_putchar('\n');
 	return (0);

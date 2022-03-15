@@ -8,7 +8,6 @@
  * Return: 1 if alx is lower case 0 otherwise
  *
  */
-
 int _islower(int alx)
 {
 	if (alx >= 97 && alx <= 122)

@@ -2,11 +2,8 @@
 
 /**
  * _islower - check if character is lower case
- *
  * @alx : parameters for the functions
- *
  * Return: 1 if alx is lower case 0 otherwise
- *
  */
 int _islower(int alx)
 {

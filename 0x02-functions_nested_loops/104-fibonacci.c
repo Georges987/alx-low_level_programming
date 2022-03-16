@@ -1,8 +1,8 @@
-nclude "main.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
- * main - Print the 50 Fibonacci numbers starting with 1 and 2
+ * main - Print the 100 Fibonacci numbers starting with 1 and 2
  *
  * Return: <0) for success <1> for failure
  *

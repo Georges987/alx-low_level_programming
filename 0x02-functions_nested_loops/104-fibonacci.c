@@ -17,11 +17,15 @@ int main(void)
 
         for (i = 0; i < 98; ++i)
         {
-	       	if (i != 97)							                        printf("%d, ", nextNum);
+	       	if (i != 97)
+		{
+			if(nextNum < 0)
+				nextNum = nextNum * (-1)
+			printf("%d, ", nextNum);
+		}
 		Fnum = Snum;					
    		Snum = nextNum;		  		
 		nextNum = Fnum + Snum;
-	    	printf("\n");		
 	}
 	return (0);
 }

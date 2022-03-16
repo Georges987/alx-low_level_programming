@@ -13,12 +13,13 @@ int main(void)
 	int Fnum = 0;
 	int Snum = 1;
 	int nextNum = Fnum + Snum;
+	
 	for (i = 0; i < 89; ++i)
 	{
 		if (i != 88)
 			printf("%d, ", nextNum);
-		Fnum = Snum;					
-		Snum = nextNum;		  		
+		Fnum = Snum;
+		Snum = nextNum;
 		nextNum = Fnum + Snum;
 		printf("\n");		
 	}

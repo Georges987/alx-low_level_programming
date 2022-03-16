@@ -3,11 +3,8 @@
 
 /**
  * print_to_98 - prints sequence of number from n to 98
- * 
- * n : the number of starting
- *
+ * @n : the number of starting
  * Return: (void)
- *
  */
 
 void print_to_98(int n)

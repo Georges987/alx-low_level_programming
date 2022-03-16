@@ -25,10 +25,10 @@ void print_times_table(int n)
 					products[i + 1] = product / 10;
 					product /= 10;
 				}
-				for(int i = (sizeof(digits) / sizeof(digits[0]));i >= 0;i--)
+				for(i = (sizeof(digits) / sizeof(digits[0]));i >= 0;i--)
 				{
-					putchar('0' + digits[i]);
-					putchar(',');	
+					_putchar('0' + digits[i]);
+					_putchar(',');	
 				}
 			}
 			_putchar('\n');

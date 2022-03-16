@@ -2,9 +2,7 @@
 
 /**
  * print_last_digit - prints the last digit of a number
- * 
- * alx : parameters for this function
- * 
+ * @alx : parameters for this function
  * Return: returns last digit of alx
  *
  */

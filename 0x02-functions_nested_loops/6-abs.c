@@ -2,9 +2,7 @@
 
 /**
  * _abs - return the absolute value of a number passed by the function
- * 
- * alx : integer value that is used like parameters for the functions
- * 
+ * @alx : integer value that is used like parameters for the functions
  * Return: absolute value of alx
  *
  */

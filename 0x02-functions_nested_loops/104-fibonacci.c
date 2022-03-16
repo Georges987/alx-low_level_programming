@@ -20,7 +20,7 @@ int main(void)
 	       	if (i != 97)
 		{
 			if(nextNum < 0)
-				nextNum = nextNum * (-1)
+				nextNum = nextNum * (-1);
 			printf("%d, ", nextNum);
 		}
 		Fnum = Snum;					

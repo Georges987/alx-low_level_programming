@@ -7,21 +7,20 @@
  * Return: <0) for success <1> for failure
  *
  **/
-
 int main(void)
 {
 	int i;
-        int Fnum = 0;
-        int Snum = 1;
-        int nextNum = Fnum + Snum;
+	int Fnum = 0;
+	int Snum = 1;
+	int nextNum = Fnum + Snum;
 
-        for (i = 0; i < 89; ++i)
-        {
-	       	if (i != 88)							                        printf("%d, ", nextNum);
+	for (i = 0; i < 89; ++i)
+	{
+		if (i != 88)							                        printf("%d, ", nextNum);
 		Fnum = Snum;					
    		Snum = nextNum;		  		
 		nextNum = Fnum + Snum;
-	    	printf("\n");		
+		printf("\n");		
 	}
 	return (0);
 }

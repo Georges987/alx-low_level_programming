@@ -18,9 +18,9 @@ void print_square(int tal)
 	}
 	else
 	{
-		for (j = 0; j < size; j++)
+		for (j = 0; j < tal; j++)
 		{
-			for (i = 0; i < size; i++)
+			for (i = 0; i < tal; i++)
 			{
 				_putchar('#');
 			}

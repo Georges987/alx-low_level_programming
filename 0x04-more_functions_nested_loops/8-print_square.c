@@ -13,7 +13,9 @@ void print_square(int tal)
 	int j;
 
 	if (tal <= 0)
+	{
 		_putchar('\n');
+	}
 	else
 	{
 		for (j = 0; j < size; j++)

@@ -25,5 +25,9 @@ void rev_string(char *s)
 	{
 		s[i] = rev[i];
 	}
-	_putchar(s);
+	i=0;
+	while (s[i] != 0)
+	{
+		_putchar(s[i]);
+	}
 }

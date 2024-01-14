@@ -23,7 +23,7 @@ char *_strcat(char *dest, char *src)
 
 	while(tail_src >= 0)
 	{
-		*(dest + tail_dest) = *(src + tail_src)
+		*(dest + tail_dest) = *(src + tail_src);
 		if(*(src + tail_src) == '\0')
 			break;
 

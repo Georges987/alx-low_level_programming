@@ -31,6 +31,6 @@ char *_strcat(char *dest, char *src)
 		tail_src++;
 	}
 
-	return dest;
+	return (dest);
 }
 
